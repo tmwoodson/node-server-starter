@@ -1,5 +1,5 @@
 
-import { getHello } from '../src/controller'
+import { getHello } from '../../src/controller'
 
 describe('controller', () => {
     it('gets the message', () => {
