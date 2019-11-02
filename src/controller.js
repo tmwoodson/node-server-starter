@@ -1,4 +1,5 @@
+import Hello from './db/model'
 
 export function getHello() {
-    return { message: 'Hello world'}
+    return new Hello({ message: 'Hello world'})
 }
